@@ -38,8 +38,8 @@ export default component$(() => {
           mode.value = changeMode();
         }}
       >
-        <Moon class="w-6 h-6 pl-0 dark:pl-10 dark:opacity-0 rotate-0 dark:rotate-180 transition-all duration-300" />
-        <Sun class="w-6 h-6 pl-10 dark:pl-0 text-amber-50 opacity-0 dark:opacity-100 rotate-180 dark:rotate-0 transition-all duration-300" />
+        <Moon class="w-6 h-6 dark:opacity-0 rotate-0 dark:rotate-180 transition-all duration-300" />
+        <Sun class="w-6 h-6 text-amber-50 opacity-0 dark:opacity-100 rotate-180 dark:rotate-0 transition-all duration-300" />
       </button>
 
       <a href="https://github.com/mousaAM/gradients" target="_blank" class="flex flex-row items-center fixed m-4 rounded-full right-0 top-0 z-20 bg-stone-50 dark:bg-slate-900 border-2 border-slate-900 dark:border-stone-50">
