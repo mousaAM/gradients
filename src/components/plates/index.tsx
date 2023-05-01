@@ -46,7 +46,7 @@ export default component$(() => {
               (event.target as HTMLInputElement).value
             );
           }}
-          class="sm:w-[400px] xs:w-[90%] w-[95%] h-[36px] px-2 outline-none border border-blue-950 dark:border-stone-50 dark:bg-slate-900 dark:caret-stone-50 dark:text-white rounded"
+          class="sm:w-[400px] xs:w-[90%] w-[95%] h-[36px] px-4 outline-none border border-blue-950 dark:border-stone-50 dark:bg-slate-900 dark:caret-stone-50 dark:text-white rounded-full"
         />
       </div>
 
