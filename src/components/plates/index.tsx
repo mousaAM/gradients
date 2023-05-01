@@ -54,7 +54,7 @@ export default component$(() => {
         {filteredColors.value.map((value, index) => (
           <div
             key={index}
-            class="2xl:basis-[calc(100%/7-1rem)] xl:basis-[calc(100%/6-1rem)] lg:basis-[calc(100%/5-1rem)] md:basis-[calc(100%/4-1rem)] sm:basis-[calc(100%/3-1rem)] xs:basis-[calc(100%/2-1rem)] basis-[calc(100%/1-1rem)] p-2 mx-2 my-4 bg-stone-100 dark:bg-slate-800 rounded-lg shadow"
+            class="2xl:basis-[calc(100%/7-1rem)] xl:basis-[calc(100%/6-1rem)] lg:basis-[calc(100%/5-1rem)] md:basis-[calc(100%/4-1rem)] sm:basis-[calc(100%/3-1rem)] xs:basis-[calc(100%/2-1rem)] basis-[calc(100%/1-1rem)] p-2 mx-2 my-4 bg-stone-50 dark:bg-slate-800 rounded-lg shadow"
           >
             <h1 class="text-center dark:text-white mb-2">{value.name}</h1>
 

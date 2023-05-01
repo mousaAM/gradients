@@ -27,7 +27,7 @@ export default component$(() => {
         <link rel="manifest" href="/site.webmanifest"></link>
         <RouterHead />
       </head>
-      <body lang="en" class="bg-stone-50 dark:bg-slate-900">
+      <body lang="en" class="bg-stone-100 dark:bg-slate-900">
         <RouterOutlet />
         <ServiceWorkerRegister />
       </body>
