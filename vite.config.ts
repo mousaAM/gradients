@@ -7,6 +7,9 @@ import { VitePWA } from 'vite-plugin-pwa'
 export default defineConfig(() => {
   return {
     plugins: [qwikCity(), qwikVite(), tsconfigPaths(), VitePWA({
+      devOptions: {
+        enabled: true
+      },
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.png'],
       manifest: {
         name: 'Gradients, Collection of gradients',
