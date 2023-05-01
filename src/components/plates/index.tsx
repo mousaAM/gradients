@@ -36,7 +36,7 @@ export default component$(() => {
 
   return (
     <>
-      <div class="w-full py-4 flex justify-center items-center">
+      <div class="w-full py-2 mb-6 flex justify-center items-center">
         <input
           type="text"
           placeholder="Search for colors"
