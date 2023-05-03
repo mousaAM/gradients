@@ -60,7 +60,7 @@ export default component$(() => {
 
             <div
               style={{
-                background: `linear-gradient(${value.colors.join(", ")})`,
+                background: `linear-gradient(${value.colors.join(", ")});`,
               }}
               class="relative flex-1 w-full h-[144px] rounded"
             >
